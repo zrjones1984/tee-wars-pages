@@ -25,11 +25,11 @@ footer{text-align:center;color:var(--dim);font-size:13px;padding:0 16px 32px}
 <nav><a href="index.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="press.html">Press</a></nav></header>
 <main><div class="card"><h1>Get Tee Wars</h1>
 <p class="meta">Golf where every hole is up for grabs.</p>
-<div id="go"><p><b>Coming soon to iPhone and Android.</b> Be first in: join the Discord for the beta and the launch day.</p></div>
-<p id="btns"><a class="btn alt" href="https://discord.gg/4DK3RSXCF">Join the Discord</a></p>
+<div id="go"><p>Taking you to the store…</p></div>
+<p id="btns"></p>
 <script>
 (function () {
-  var released = false;
+  var released = true;
   var src = ((new URLSearchParams(location.search)).get('src') || 'web').replace(/[^A-Za-z0-9_]/g, '').slice(0, 40).toLowerCase() || 'web';
   var pt = '129176837';
   var ios = 'https://apps.apple.com/app/apple-store/id6821496495?' + (pt ? 'pt=' + pt + '&' : '') + 'ct=' + src + '&mt=8';
